@@ -1,0 +1,197 @@
+body {
+    font-family: sans-serif, helvetica, arial;
+}
+
+#container {
+    width: 1000px;
+    /* border: 1px solid grey; */
+    margin: 0 auto;
+}
+
+#header {
+    height: 100px;
+    padding: 10px 0;
+}
+
+.searchIcon {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: orange;
+    background: white url(file:///home/dsuroviec/Downloads/search-outline.svg)
+        no-repeat right center;
+    border: 1px solid green;
+}
+
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: purple;
+    font-size: 15px;
+}
+.clear {
+    clear: both;
+}
+
+#searchBox {
+    float: right;
+    background: linear-gradient(lime, green);
+    background: -webkit-linear-gradient(lime, green);
+    background: -o-linear-gradient(lime, green);
+    background: -moz-linear-gradient(lime, green);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+}
+
+#brand {
+    float: left;
+}
+
+h1 a {
+    font-size: 50px;
+    font-weight: 100;
+    color: purple;
+    text-decoration: none;
+}
+
+#searchBox {
+    float: right;
+}
+
+#menu {
+    height: 70px;
+    background: linear-gradient(white, orange);
+    background: -webkit-linear-gradient(white, orange);
+    background: -o-linear-gradient(white, orange);
+    background: -moz-linear-gradient(white, orange);
+    padding: 7px 0;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu li {
+    float: left;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 100px;
+    height: 30px;
+    border-right: 1px solid purple;
+}
+
+#menu ul li:last-child {
+    border-right: none;
+}
+
+#menu ul li a:hover,
+#menu ul li a.active {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(219, 102, 219);
+}
+
+#menu a {
+    line-height: 30px;
+    text-decoration: none;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.introduction {
+    background: linear-gradient(lime, green);
+    padding: 30px;
+    margin: 16px 0;
+}
+.introduction h3 {
+    font-size: 45px;
+    color: rgb(5, 65, 5);
+    font-weight: normal;
+}
+
+.introduction p {
+    font-size: 25px;
+    color: rgb(18, 77, 18);
+    text-align: justify;
+}
+
+.sidebar {
+    height: 500px;
+    width: 400px;
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+.sidebar h3 {
+    color: purple;
+    font-size: 30px;
+}
+
+#leftsidebar ul {
+    padding-top: 8px;
+}
+
+#leftsidebar ul li {
+    padding: 5px 0 6px 10px;
+    list-style-image: url(file:///home/dsuroviec/Downloads/arrow-forward-circle-outline.svg);
+}
+
+#rightsidebar ul li {
+    /* list-style-image: url(file:///home/dsuroviec/Downloads/checkmark-outline.svg); */
+    padding: 10px 0 10px 60px;
+    background: url(file:///home/dsuroviec/Downloads/checkmark-outline.svg)
+        no-repeat left center;
+    list-style: none;
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(184, 15, 184);
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a .active {
+    text-decoration: none;
+    color: rgb(219, 85, 208);
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#leftsidebar {
+    float: left;
+}
+
+#rightsidebar {
+    float: right;
+}
+
+.footer {
+    height: 50px;
+    background: linear-gradient(white, orange);
+    background: -webkit-linear-gradient(white, orange);
+    background: -o-linear-gradient(white, orange);
+    background: -moz-linear-gradient(white, orange);
+    padding: 10px 30px;
+    margin-top: 18px;
+}
